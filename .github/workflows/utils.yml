@@ -1,11 +1,6 @@
 name: Utils CI
 
 on:
-  schedule:
-    - cron:  '0 0 1 * *'
-  push:
-    paths:
-      - 'create-utils.sh'
   workflow_dispatch:
 
 jobs:
